@@ -1,0 +1,88 @@
+/* Meme Upload Form Styles */
+.meme-upload-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* File Input */
+.meme-upload-form input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+
+.meme-upload-form input[type="file"]:hover {
+    background: #f0f0f0;
+}
+
+/* Caption Textarea */
+.meme-upload-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+    background: #f8f8f8;
+    transition: border 0.3s ease-in-out;
+}
+
+.meme-upload-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background: white;
+}
+
+/* Upload Button */
+.meme-upload-form button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.meme-upload-form button:hover {
+    background: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .meme-upload-form {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .meme-upload-form textarea {
+        height: 80px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .meme-upload-form {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .meme-upload-form input[type="file"],
+    .meme-upload-form textarea,
+    .meme-upload-form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
