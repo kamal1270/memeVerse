@@ -1,3 +1,5 @@
+Deploy Link : https://meme-verse-1o9t.vercel.app/
+
 # MemeVerse - The Ultimate Hub for Memes
 
 MemeVerse is an interactive multi-page web application developed using **React.js** through which users can browse, upload, and engage with memes. The site has a smooth feel with infinite scroll, AI-captioned memes, user profiles, leaderboards, and more.
